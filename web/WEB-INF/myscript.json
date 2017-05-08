@@ -1,0 +1,49 @@
+{
+"Document_root" : "C:/Users/greet_000/Documents/NetBeansProjects/Tutojava/web",
+"Project_name"  : "myproject",
+"Script_name"   : "/myscript",
+"Template"      : "/WEB-INF/views",
+"Pubrole"       : "public",
+"Secret"        : "sf09i51jlbnd0324e;fn 34091A3i5i13vtnsdkvn akUIUUIHKJHV",
+"Chartags"      : {
+    "html" : {
+        "Content_type":"text/html; charset=\"UTF-8\"",
+        "Short":"html"
+    },
+    "json" : {
+        "Content_type":"application/json; charset=\"UTF-8\"",
+        "Short":"json",
+        "Challenge":"challenge",
+        "Logged":"logged",
+        "Logout":"logout",
+        "Failed":"failed",
+        "Case":1
+    }
+},
+
+"Db" : ["jdbc:sqlite:C:/Users/greet_000/Documents/NetbeansProjects/geneletdb", "", ""],
+
+"Roles" : {
+    "admin" : {
+        "Id_name" : "login",
+        "Is_admin" : true,
+        "Attributes" : ["login","provider"],
+        "Type_id" : 1,
+        "Surface" : "cadmin",
+        "Domain" : "localhost",
+        "Duration" : 86400,
+        "Max_age"  : 86400,
+        "Secret" : "13123ed%OINK()H%^*&(PIHNdsncxzdlgpwwq;akdsgfhgf f982",
+        "Coding" : "(*&*(&(*)sfd fasf 14812 4HJKL BS1312fhdf fd0-41fdf f",
+        "Logout" : "/",
+        "Issuers" : {
+            "plain" : {
+                "Default" : true,
+                "Out_pars": ["login"],
+                "Credential" : ["login", "passwd", "direct", "cadmin"],
+                "Provider_pars": {"Def_login":"hello", "Def_password":"world"}
+            }
+        }
+    }
+}
+}

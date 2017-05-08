@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix ="c" %>
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Administrative Pages</title>
+</head>
+<body>
+<h2>MYPROJECT</h2>
+<h3>${error_code}</h3>
+<FORM METHOD="POST" ACTION="${Login_name}">
+<INPUT TYPE="HIDDEN" NAME="${Go_uri_name}" VALUE="${go_uri}" />
+<pre>
+   Login: <INPUT TYPE="TEXT" NAME="${Login_field}" />
+Password: <INPUT TYPE="PASSWORD" NAME="${Password_field}" />
+<INPUT TYPE="SUBMIT" VALUE=" Log In " />
+</pre>
+</FORM></body></html>
