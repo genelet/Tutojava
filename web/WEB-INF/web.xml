@@ -13,7 +13,7 @@
 </listener>
 <context-param>
     <param-name>config.filename</param-name>
-    <param-value>C:/Users/greet_000/Documents/NetBeansProjects/Tutojava/web/WEB-INF/myscript.json</param-value>
+    <param-value>C:/Users/greet_000/Documents/NetBeansProjects/Tutojava/web/WEB-INF/config.json</param-value>
 </context-param>
 <context-param>
     <param-name>jdbc.type</param-name>
