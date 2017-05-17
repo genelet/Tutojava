@@ -1,0 +1,20 @@
+{
+    
+    "actions" : {
+        "startnew" : { "options" : ["no_db", "no_method"], "groups" : ["public"] },
+        "insert" :  { "validate" : ["question_text"]  },
+        "edit" : { "validate" : ["id"] },
+        "update" : { "validate" : ["id"], "groups" : ["public"]  },
+        "delete" : {  "validate" : ["id"]  },
+        "topics" : {  "groups" : ["public"] }
+    },
+            
+    "insert_pars" : ["question_text"],
+    "update_pars" : ["id", "question_text"],
+    "topics_pars" : ["id", "question_text"],
+    "edit_pars " : ["id", "question_text"],
+    "current_table" : "polls_question",
+    "current_key" : "id",
+    "current_id_auto" : "id"
+
+}
